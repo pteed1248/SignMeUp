@@ -1,0 +1,31 @@
+body {
+    background-image: url(../images/index_bg_1.gif);
+}
+
+#id_homepage {
+    display: flex;
+    flex-direction: row;
+    margin: 0% 10%;
+    border-bottom: 1px solid white;
+}
+
+#id_homepage a {
+    text-decoration: none;
+    color: white;
+}
+
+#login-box {
+    display: flex;
+    flex-direction: row;
+    height: 500px;
+    width: auto;
+    background-color: #9AA5B1;
+    margin: 3% 10%;
+}
+
+#login-box-top {
+    background-image: url("https://arweb.sdsu.edu/es/webportal/images/bg_header.png");
+    height: 71px;
+    width: 100%;
+}
+
