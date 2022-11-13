@@ -30,4 +30,23 @@ body {
     width: 100%;
 }
 
+#login-frame {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: auto;
+}
+
+#login-inputs {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    height: 350px;
+    width: 500px;
+    background-color: rgb(176, 173, 173);
+    border-radius: 25px;
+}
+
+
 

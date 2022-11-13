@@ -18,7 +18,25 @@
 
     <div id="login-box">
         <div id="login-box-top"></div>
-
+        <div id="login-frame">
+            <div id="login-inputs">
+                <h2 style="text-align: center; padding: 4% 0%;">Account Authentication</h2>
+                <form method="post" style="padding-top: 4%;">
+                    <label for="uname"><b>Username</b></label>
+                    <input type="text" placeholder="Enter Username" name="uname" required>
+                    <br>
+                    <label for="psw"><b>Password</b></label>
+                    <input type="password" placeholder="Enter Password" name="psw" required>
+                    <br>
+                    <button type="submit">Login </button>
+                    <label>
+                    <input type="checkbox" checked="checked" name="remember"> Remember me
+                    </label>
+                    <br>
+                    <span class="psw">Forgot <a href="#">password?</a></span>
+                </form>
+            </div>
+        </div>
         <div id="login-box-top"></div>
     </div>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
