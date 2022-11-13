@@ -9,7 +9,7 @@ Start by downloading everything in package.json
 ```npm install```
 
 To start the server using devStart 
-```npm run devStart```
+```npm run devStart``` 
 
 Note: devStart will automatically load changes without having to restart node everything. (Refresh page to see changes)
 
