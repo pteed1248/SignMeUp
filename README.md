@@ -22,7 +22,7 @@ Please start by reading up on node.js and MySQL intergration
 https://www.w3schools.com/nodejs/nodejs_mysql.asp
 Please copy this EXACTLY in order to connect to the aws MySQL database
 
-var mysql = require('mysql')
+var mysql = require('mysql');
 
 var con = mysql.createConnection({
     host: "fcfs.c2oe7fkglsr2.us-west-2.rds.amazonaws.com",
